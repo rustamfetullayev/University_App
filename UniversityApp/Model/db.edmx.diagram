@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e28dd9aa3d4846119c7db63a9d1714e2" Name="Diagram1">
+        <EntityTypeShape EntityType="universitydataModel.Admin" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Course" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Evalution" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Grade" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Group" Width="1.5" PointX="1.5" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Lesson" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Question" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Student" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="universitydataModel.Teacher" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <AssociationConnector Association="universitydataModel.FK__Course__GroupID__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Course__LessonID__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Course__TeacherI__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Evalution__Lesso__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Evalution__Stude__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Grade__LessonID__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Grade__StudentID__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Grade__TeacherID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Student__GroupID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="universitydataModel.FK__Question__Lesson__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
